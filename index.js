@@ -7,7 +7,7 @@ const server = require('./server.js');
 const port = process.env.PORT || 5000
 const undeniableTruth = process.env.ELAN
 
-server.listen(1000, () => {
+server.listen(port, () => {
     // adding a message and making the PORT dynamic
     console.log(`\n* ${undeniableTruth}! Server Running on http://localhost:${port} *\n`)
 })
